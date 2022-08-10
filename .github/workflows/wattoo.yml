@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Installing surge
-        run: npm install -g surge ./ first_day.surgesh--token $ {{secrets.top_secret}}
+        run: npm install -g surge ./ first_day.surgesh--token $ {{secrets.TOP_SECRET}}
