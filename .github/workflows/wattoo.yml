@@ -33,4 +33,4 @@ jobs:
       - name: Installing surge
         run: npm install -g surge
       - name: Deploying surge on website
-        run: npm install -g surge ./ first_day.surge.sh--token $ {{secrets.TOP_SECRET}}
+        run: surge ./ first_day.surge.sh--token $ {{secrets.TOP_SECRET}}
