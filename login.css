@@ -476,3 +476,6 @@ body .epsilon-toggle > input.epsilon-toggle__input[type=checkbox]:checked + .eps
 li#customize-control-clc-options-custom-css > .CodeMirror-wrap {
     height:calc(100vh - 230px);
 }
+.background-color {
+    background-color: darkolivegreen;
+}
