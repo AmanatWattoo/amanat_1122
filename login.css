@@ -479,3 +479,6 @@ li#customize-control-clc-options-custom-css > .CodeMirror-wrap {
 .background-color {
     background-color: darkolivegreen;
 }
+.text {
+    text-decoration-color: white;
+}
