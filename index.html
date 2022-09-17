@@ -5,15 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="background-color">
+    <title>login/Logon Form</title>
+    <script>
+        function test(){
+            var a=document.forms["login"]["n"].value;
+            var b=document.forms["login"]["p"].value;
+            var c=document.forms["login"]["c"].value;
+        if(a=="")
+        {
+        alert("Name field never be empty");
+        return false; 
+       }
+       if(b=="")
+        {
+        alert("Password field never be empty");
+        return false; 
+       }
+       if(c=="")
+        {
+        alert("Confirm field never be empty");
+        return false; 
+       }
+       if(b==c)
+        {
+        alert("Account success-----!");
+        return true; 
+    }
+    else
+    {
+        alert("passwor & confirm password must be same");
+        return false;
+    }
 
+        }
+    </script>
+</head>
+<body>
     <h1 class="text"><hr> Welcome to Employee Management System </hr></h1>
+
+<fieldset><b><u> Logon Section:
+<form name="login" onsubmit="return test()" method="post">
+<br>
+<input class="epsilon-toggle__track"  type="text" name="n" placeholder="Enter Your name" size="12"><br>
+<br>
+<input type="password" name="p" placeholder="Type Here password" size="12"><br>
+<br>
+<input type="password" name="c" placeholder="Type again password" size="12"><br>
+
 <div>
-    <fieldset>
-        <input class="background-color" > Enter your Email Address Here</input>
-    </fieldset>
+    <br>
+    <input class="colorlib-login-customizer-control-group" type="submit" value="submit">
 </div>
+</form>
+</div>
+</fieldset>
 </body>
 </html>

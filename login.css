@@ -175,7 +175,7 @@
 .colorlib-login-customizer-control-group {
   width: 100%;
   height: 33px;
-  background: #FEFEFE;
+  background: #2b0594;
   border-radius: 3px;
   line-height: 35px;
   cursor: pointer;
@@ -185,6 +185,7 @@
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.06);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.06);
   height: 35px;
+  color: white;
 }
 
 .colorlib-login-customizer-control-group a {
